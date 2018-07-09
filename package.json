@@ -1,0 +1,34 @@
+{
+  "name": "preact-cli-svg-loader",
+  "description": "Removes svg extension file-loader, url-loader and raw-loader and use preact-svg-loader to load svg file as preact components",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "https://github.com/pmcalmeida",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmcalmeida/preact-cli-svg-loader.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "publish": "publish-please",
+    "prepublish": "npm run lint",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "publish-please": "^2.3.1"
+  },
+  "dependencies": {
+    "eslint": "^4.2.0",
+    "preact-svg-loader": "^0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pmcalmeida/preact-cli-svg-loader/issues"
+  },
+  "homepage": "https://github.com/pmcalmeida/preact-cli-postcss#readme",
+  "keywords": [
+    "svg",
+    "loader",
+    "preact",
+    "cli"
+  ]
+}
