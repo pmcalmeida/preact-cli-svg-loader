@@ -10,12 +10,12 @@
   },
   "license": "MIT",
   "scripts": {
-    "publish": "publish-please",
-    "prepublish": "npm run lint",
-    "lint": "eslint src"
+    "prepublishOnly": "publish-please guard",
+    "lint": "eslint src",
+    "publish-please": "publish-please"
   },
   "devDependencies": {
-    "publish-please": "^2.3.1"
+    "publish-please": "^5.5.1"
   },
   "dependencies": {
     "eslint": "^4.2.0",
